@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    background-color: tomato;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect {
+    background-color: #008080;
+    width: 47px;
+    height: 47px;
+    border: 3px solid;
+    border-color: white;
+
+}
+
+#big_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 228px;
+    height: 188px;
+    background-color: #F5DEB8;
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 0px;
+}
+
+#middle{
+    background-color: #008080;
+    width: 189px;
+    height: 47px;
+    border: 3px dashed;
+    border-color: white;
+}

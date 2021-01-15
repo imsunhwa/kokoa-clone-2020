@@ -1,0 +1,54 @@
+body{
+    background-color:#F5F5F5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding : 20px;
+}
+main > div {
+    display: flex;
+}
+main > div > div{
+    height: 290px;
+    width: 170px;
+    background-color: teal;
+    margin: 10px 10px;
+    border: 5px solid white;
+    position: relative;
+}
+main > div> div> div{
+    height: 100px;
+    width: 100%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 15px;
+    background-color: white;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+main > div:first-child > div:first-child{
+ background-color: tomato;
+}
+main > div:first-child > div:last-child{
+ background-color: teal;
+}
+main > div:last-child > div:first-child{
+ background-color: burlywood;
+}
+main > div:last-child > div:last-child{
+ background-color: thistle;
+}
+main > div> div> div> div:last-child{
+    font-size: small;
+}
+
