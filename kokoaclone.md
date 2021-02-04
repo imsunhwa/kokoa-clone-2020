@@ -229,7 +229,9 @@ https://nykim.work/15
 
 ## 6.10 Navigation Bar
 
+- nav는 시맨틱 태그의 일종
 - 구글 검색했을 때 타이틀 아래 리스트 처럼 있는 것도, navigation 안에 있는 ul의 li를 찾아서 가게 해주는 것
+  - li는 ul, ol아래에 `<li>내용</li>` 이런식으로 리스트 구성 요소들 나타내는 것, list아래에 ul, ol 또 사용 가능
 - VSC 단축키 : nav>ul>li*4>a
 
   ```html
@@ -252,3 +254,8 @@ https://nykim.work/15
 (css box padding의 디폴트 원리
 200픽셀의 박스에 50픽셀의 패딩을 주면, css는 기존 박스의 가로를 유지하기 위해 50만큼 박스를 늘림.
 이를 막기 위해 box-sizing:border-box를 쓰면 box의 크기를 유지한 채 padding을 줄 수 있다.)
+
+## 6.12 Nav bar 
+
+- block을 원으로 만들고 싶으면 border-radius 를 block 크기의 절반으로 입력하면 됨 ex) width:10px; -> border-radius:5px;
+- position: absolute는 가장 가까운 position: relative를 기준으로 자리잡음
