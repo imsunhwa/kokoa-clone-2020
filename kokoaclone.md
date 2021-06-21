@@ -259,3 +259,17 @@ https://nykim.work/15
 
 - block을 원으로 만들고 싶으면 border-radius 를 block 크기의 절반으로 입력하면 됨 ex) width:10px; -> border-radius:5px;
 - position: absolute는 가장 가까운 position: relative를 기준으로 자리잡음
+
+## 6.15 Friends Screen
+
+- screen : 그 페이지에만 있는 유니크한 CSS
+- components : 여러 페이지에서 공용으로 사용할 수 있는 CSS
+- div안에 있는 아이콘들 CSS주려면 .classname i{}
+- icon은 text, font라고 생각하면 됨, front처럼 color 지정 가능
+- > : chevron
+
+## 6.16 User component 
+
+- VSC 단축키 : .class_name*2 이런식으로 적어도 div 생성됨
+- 반복 되는 것들은 component로 만들어서 계속 사용한다
+- class ="dkfjkejf ejkflsjkf" 하면 클래스 2개 할당하는 것
